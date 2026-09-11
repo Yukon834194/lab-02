@@ -54,6 +54,7 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
+
 @Composable
 fun CityListScreen(
     cities: List<String>,
@@ -119,6 +120,7 @@ fun CityListScreen(
 
     }
 }
+
 @Composable
 fun CityRow(
     city: String,
@@ -156,6 +158,7 @@ class CityRepository {
         _cities.remove(city)
     }
 }
+
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
